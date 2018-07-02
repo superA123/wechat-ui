@@ -1,0 +1,32 @@
+/*!
+ * WeUI v1.1.1 (https://github.com/weui/weui)
+ * Copyright 2017 Tencent, Inc.
+ * Licensed under the MIT license、
+ *新修改版本覆盖weUI部分代码
+ */
+
+/* 重写weui导航页icon 大小样式*/
+.weui-grid__icon { width:75px !important; height:75px !important;  }
+/* 重写weui导航页icon 下标题文字大小及软件开单红色变黑色关联样式*/
+.weui-grid__label{ font-size:17px !important;}
+
+
+/*form 表单相关CSS样式重写*/
+/* 重写weui 软件开单警告文字颜色  红色变为黑色 大小样式*/
+.weui-cell_warn {  width:92% !important; color:black ;display: block;  height:68px; margin-bottom: 8px;  margin-top: 5px; }
+
+/*软件开单 input宽度圆边框 */
+.weui-cell__primary{font-size: smaller;  font-family: 'Microsoft YaHei UI';display: block;border:#e5e5e5 1px solid; border-radius:4px 4px 4px 4px;  margin-top: 10px; padding-top:5px;padding-bottom:5px;padding-left:15px ;padding-right:15px; margin-right: 0px; }
+
+/* 重写weui 软件开单textarea 宽度圆边框 样式*/
+.weui-textarea{font-size: smaller;  font-family: 'Microsoft YaHei UI'; width:92% !important;display: block;border:#e5e5e5 1px solid; border-radius:4px 4px 4px 4px;  margin-top:10px;margin-bottom:10px; padding-top:5px;padding-bottom:5px;padding-left:13px ;padding-right:13px; margin-right: 0px; }
+/*button 长度重写*/
+.weui-btn{margin-left:15px;margin-right:15px;width:92% !important;margin-top:15px;}
+
+
+/*待办列表*/
+/*重写 待办列表title文字变黑 */
+.weui-panel__hd{color:black; font-size: medium;}
+.vux-tab-item{ font-size: large !important}/*tab切换按钮文字变大*/
+.weui-media-box__desc{color: black;padding:5px 0px; font-size: small;}/*文字颜色及字号调整*/
+.weui-media-box__info{color: black;font-weight:bold;}/*文字颜色变黑及粗体*/

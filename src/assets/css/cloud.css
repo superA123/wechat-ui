@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*!
+ * WeUI v1.1.1 (https://github.com/weui/weui)
+ * Copyright 2017 Tencent, Inc.
+ * Licensed under the MIT license、
+ * 覆盖weUI样式：标题、输入框同行
+ */
+
+/* 固定页面header */
+.fixedHead {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+/* 重写weui导航页icon 大小样式*/
+.weui-grid__icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+/* 重写weui导航页icon 下标题文字大小样式*/
+.weui-grid__label {
+  font-size: 17px !important;
+}
+
+/*form 表单 CSS样式重写*/
+/* 重写间距 */
+.weui-cells {
+  margin-top: 0px;
+}
+
+/* 重写weui 软件开单警告文字颜色  红色变为黑色 大小样式*/
+.weui-cell_warn {
+  color: black;
+}
+
+.weui-input {
+  border: #e5e5e5 1px solid;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 10px;
+  width: 92%;
+  font-size: smaller;
+}
+
+/* 重写weui 软件开单textarea 宽度圆边框 样式*/
+.weui-textarea {
+  font-size: smaller;
+  font-family: 'Microsoft YaHei UI';
+  width: 100% !important;
+  display: block;
+  border: #e5e5e5 1px solid;
+  padding-top: 5px;
+  text-indent:10px;
+}
+
+/*weui-label*/
+.weui-label {
+  width: 5em !important;
+}
+
+/*待办列表*/
+/*重写 待办列表title文字变黑 */
+.weui-panel__hd {
+  color: black;
+  font-size: medium;
+  background-color: #e9e9e9;
+}
+
+.vux-tab-item {
+  font-size: large !important
+}
+
+/*tab切换按钮文字变大*/
+.weui-media-box__desc {
+  color: black;
+  padding: 5px 0px;
+  font-size: small;
+}
+
+/*文字颜色及字号调整*/
+.weui-media-box__info {
+  color: black;
+  font-weight: bold;
+}
+
+/*文字颜色变黑及粗体*/
+
+/*footer居底中间*/
+.weui-footer {
+  height: 35px;
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
